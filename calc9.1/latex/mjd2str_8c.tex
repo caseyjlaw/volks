@@ -1,0 +1,89 @@
+\hypertarget{mjd2str_8c}{}\section{mjd2str.\+c File Reference}
+\label{mjd2str_8c}\index{mjd2str.\+c@{mjd2str.\+c}}
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$string.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}vlb.\+h\char`\"{}}\newline
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \hyperlink{mjd2str_8c_aa70747e23d9ebf312299930cf6b3c20d}{AD}~678576
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{vlb_8h_a0cb9c7fae5afe4237eb4d5d43318fa18}{S\+T\+A\+T\+US} \hyperlink{mjd2str_8c_a155374cc41125371d88ae37636ba5c5a}{mjd2date} (long mjd, int $\ast$p\+Year, int $\ast$p\+Month, int $\ast$p\+Day)
+\item 
+char $\ast$ \hyperlink{mjd2str_8c_af9bd6b20f0d5306ee0a01e9f2a687313}{mjd2str} (long mjd, char $\ast$pstring)
+\item 
+\hyperlink{vlb_8h_a0cb9c7fae5afe4237eb4d5d43318fa18}{S\+T\+A\+T\+US} \hyperlink{mjd2str_8c_a5a16fe001632bf0b31626b6e934bb970}{mjd2dayno} (long mjd, int $\ast$p\+Day\+No)
+\end{DoxyCompactItemize}
+
+
+\subsection{Macro Definition Documentation}
+\mbox{\Hypertarget{mjd2str_8c_aa70747e23d9ebf312299930cf6b3c20d}\label{mjd2str_8c_aa70747e23d9ebf312299930cf6b3c20d}} 
+\index{mjd2str.\+c@{mjd2str.\+c}!AD@{AD}}
+\index{AD@{AD}!mjd2str.\+c@{mjd2str.\+c}}
+\subsubsection{\texorpdfstring{AD}{AD}}
+{\footnotesize\ttfamily \#define AD~678576}
+
+
+
+Referenced by mjd2date().
+
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{mjd2str_8c_a155374cc41125371d88ae37636ba5c5a}\label{mjd2str_8c_a155374cc41125371d88ae37636ba5c5a}} 
+\index{mjd2str.\+c@{mjd2str.\+c}!mjd2date@{mjd2date}}
+\index{mjd2date@{mjd2date}!mjd2str.\+c@{mjd2str.\+c}}
+\subsubsection{\texorpdfstring{mjd2date()}{mjd2date()}}
+{\footnotesize\ttfamily \hyperlink{vlb_8h_a0cb9c7fae5afe4237eb4d5d43318fa18}{S\+T\+A\+T\+US} mjd2date (\begin{DoxyParamCaption}\item[{long}]{mjd,  }\item[{int $\ast$}]{p\+Year,  }\item[{int $\ast$}]{p\+Month,  }\item[{int $\ast$}]{p\+Day }\end{DoxyParamCaption})}
+
+
+
+Definition at line 18 of file mjd2str.\+c.
+
+
+
+References AD, and E\+R\+R\+OR.
+
+
+
+Referenced by mjd2dayno(), and mjd2str().
+
+\mbox{\Hypertarget{mjd2str_8c_a5a16fe001632bf0b31626b6e934bb970}\label{mjd2str_8c_a5a16fe001632bf0b31626b6e934bb970}} 
+\index{mjd2str.\+c@{mjd2str.\+c}!mjd2dayno@{mjd2dayno}}
+\index{mjd2dayno@{mjd2dayno}!mjd2str.\+c@{mjd2str.\+c}}
+\subsubsection{\texorpdfstring{mjd2dayno()}{mjd2dayno()}}
+{\footnotesize\ttfamily \hyperlink{vlb_8h_a0cb9c7fae5afe4237eb4d5d43318fa18}{S\+T\+A\+T\+US} mjd2dayno (\begin{DoxyParamCaption}\item[{long}]{mjd,  }\item[{int $\ast$}]{p\+Day\+No }\end{DoxyParamCaption})}
+
+
+
+Definition at line 119 of file mjd2str.\+c.
+
+
+
+References mjd2date(), and OK.
+
+
+
+Referenced by mjd2str().
+
+\mbox{\Hypertarget{mjd2str_8c_af9bd6b20f0d5306ee0a01e9f2a687313}\label{mjd2str_8c_af9bd6b20f0d5306ee0a01e9f2a687313}} 
+\index{mjd2str.\+c@{mjd2str.\+c}!mjd2str@{mjd2str}}
+\index{mjd2str@{mjd2str}!mjd2str.\+c@{mjd2str.\+c}}
+\subsubsection{\texorpdfstring{mjd2str()}{mjd2str()}}
+{\footnotesize\ttfamily char$\ast$ mjd2str (\begin{DoxyParamCaption}\item[{long}]{mjd,  }\item[{char $\ast$}]{pstring }\end{DoxyParamCaption})}
+
+
+
+Definition at line 85 of file mjd2str.\+c.
+
+
+
+References E\+R\+R\+OR, mjd2date(), and mjd2dayno().
+
+
+
+Referenced by date2str(), and time2str().
+

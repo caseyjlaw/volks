@@ -1,0 +1,168 @@
+\hypertarget{catmm_8f}{}\section{catmm.\+f File Reference}
+\label{catmm_8f}\index{catmm.\+f@{catmm.\+f}}
+\subsection*{Functions/\+Subroutines}
+\begin{DoxyCompactItemize}
+\item 
+subroutine \hyperlink{catmm_8f_a288688515ef4c9e5dae3d842804acbbb}{atma}
+\item 
+subroutine \hyperlink{catmm_8f_a64b184fffb62b358507fa3f7674dd19b}{atmi}
+\item 
+subroutine \hyperlink{catmm_8f_aca995303b1aeb100e2bc1a8f9667e6d9}{atmg} (R2000, S\+T\+AR, E\+A\+R\+TH, T\+C\+T\+O\+CF, S\+I\+T\+EV, AZ, E\+L\+EV, S\+T\+A\+R\+\_\+\+A\+B\+E\+R\+R\+A\+T\+ED)
+\item 
+subroutine \hyperlink{catmm_8f_a91aa038b0d7e40d535c1f571d5d8d8af}{atmp} (E\+L\+EV, AZ, S\+I\+T\+L\+AT, S\+I\+T\+H\+E\+I\+G\+HT, X\+JD, CT, d\+A\+T\+M\+Cdh)
+\item 
+subroutine \hyperlink{catmm_8f_ad6ac5a1de88a4a1c39a1e72ae05a28e8}{atmc} (Z\+P\+A\+TH, D\+A\+T\+MC)
+\item 
+subroutine \hyperlink{catmm_8f_a85f67f147367aa5457086a5af5cb3e89}{nhmf2} (epoch, latitude, height, elev, hmf)
+\item 
+subroutine \hyperlink{catmm_8f_aa1454243409271cf13ba3340d7fa1772}{nwmf2} (latitude, elev, wmf)
+\item 
+subroutine \hyperlink{catmm_8f_a3e9b0f9d2d87d197879682e7587d63b5}{sastd} (P, P\+D\+OT, R\+L\+AT, S\+I\+T\+E\+HT, d\+Pdh, ZD, Z\+D\+D\+OT, d\+Z\+Ddh)
+\item 
+subroutine \hyperlink{catmm_8f_a932e6b52a7f43de7069f6c44d5d4deb2}{sastw} (RH, TC, R\+H\+D\+OT, T\+C\+D\+OT, ZW, Z\+W\+D\+OT)
+\end{DoxyCompactItemize}
+
+
+\subsection{Function/\+Subroutine Documentation}
+\mbox{\Hypertarget{catmm_8f_a288688515ef4c9e5dae3d842804acbbb}\label{catmm_8f_a288688515ef4c9e5dae3d842804acbbb}} 
+\index{catmm.\+f@{catmm.\+f}!atma@{atma}}
+\index{atma@{atma}!catmm.\+f@{catmm.\+f}}
+\subsubsection{\texorpdfstring{atma()}{atma()}}
+{\footnotesize\ttfamily subroutine atma (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 2 of file catmm.\+f.
+
+
+
+References adda(), addr(), and delr().
+
+\mbox{\Hypertarget{catmm_8f_ad6ac5a1de88a4a1c39a1e72ae05a28e8}\label{catmm_8f_ad6ac5a1de88a4a1c39a1e72ae05a28e8}} 
+\index{catmm.\+f@{catmm.\+f}!atmc@{atmc}}
+\index{atmc@{atmc}!catmm.\+f@{catmm.\+f}}
+\subsubsection{\texorpdfstring{atmc()}{atmc()}}
+{\footnotesize\ttfamily subroutine atmc (\begin{DoxyParamCaption}\item[{real$\ast$8, dimension(2)}]{Z\+P\+A\+TH,  }\item[{real$\ast$8, dimension(2,2)}]{D\+A\+T\+MC }\end{DoxyParamCaption})}
+
+
+
+Definition at line 769 of file catmm.\+f.
+
+
+
+References put4().
+
+
+
+Referenced by drivr().
+
+\mbox{\Hypertarget{catmm_8f_aca995303b1aeb100e2bc1a8f9667e6d9}\label{catmm_8f_aca995303b1aeb100e2bc1a8f9667e6d9}} 
+\index{catmm.\+f@{catmm.\+f}!atmg@{atmg}}
+\index{atmg@{atmg}!catmm.\+f@{catmm.\+f}}
+\subsubsection{\texorpdfstring{atmg()}{atmg()}}
+{\footnotesize\ttfamily subroutine atmg (\begin{DoxyParamCaption}\item[{real$\ast$8, dimension(3,3,3)}]{R2000,  }\item[{real$\ast$8, dimension(3)}]{S\+T\+AR,  }\item[{real$\ast$8, dimension(3,3)}]{E\+A\+R\+TH,  }\item[{real$\ast$8, dimension(3,3,2)}]{T\+C\+T\+O\+CF,  }\item[{real$\ast$8, dimension(3,2)}]{S\+I\+T\+EV,  }\item[{real$\ast$8, dimension(2,2)}]{AZ,  }\item[{real$\ast$8, dimension(2,2)}]{E\+L\+EV,  }\item[{real$\ast$8, dimension(3,2)}]{S\+T\+A\+R\+\_\+\+A\+B\+E\+R\+R\+A\+T\+ED }\end{DoxyParamCaption})}
+
+
+
+Definition at line 178 of file catmm.\+f.
+
+
+
+References mtran(), put4(), vecad(), vecrt(), and vunit().
+
+
+
+Referenced by drivr().
+
+\mbox{\Hypertarget{catmm_8f_a64b184fffb62b358507fa3f7674dd19b}\label{catmm_8f_a64b184fffb62b358507fa3f7674dd19b}} 
+\index{catmm.\+f@{catmm.\+f}!atmi@{atmi}}
+\index{atmi@{atmi}!catmm.\+f@{catmm.\+f}}
+\subsubsection{\texorpdfstring{atmi()}{atmi()}}
+{\footnotesize\ttfamily subroutine atmi (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 97 of file catmm.\+f.
+
+
+
+References puta().
+
+
+
+Referenced by initl().
+
+\mbox{\Hypertarget{catmm_8f_a91aa038b0d7e40d535c1f571d5d8d8af}\label{catmm_8f_a91aa038b0d7e40d535c1f571d5d8d8af}} 
+\index{catmm.\+f@{catmm.\+f}!atmp@{atmp}}
+\index{atmp@{atmp}!catmm.\+f@{catmm.\+f}}
+\subsubsection{\texorpdfstring{atmp()}{atmp()}}
+{\footnotesize\ttfamily subroutine atmp (\begin{DoxyParamCaption}\item[{real$\ast$8, dimension(2,2)}]{E\+L\+EV,  }\item[{real$\ast$8, dimension(2,2)}]{AZ,  }\item[{real$\ast$8, dimension(2)}]{S\+I\+T\+L\+AT,  }\item[{real$\ast$8, dimension(2)}]{S\+I\+T\+H\+E\+I\+G\+HT,  }\item[{real$\ast$8}]{X\+JD,  }\item[{real$\ast$8}]{CT,  }\item[{real$\ast$8, dimension(2,2)}]{d\+A\+T\+M\+Cdh }\end{DoxyParamCaption})}
+
+
+
+Definition at line 442 of file catmm.\+f.
+
+
+
+References get4(), nhmf2(), nwmf2(), put4(), sastd(), and sastw().
+
+
+
+Referenced by drivr().
+
+\mbox{\Hypertarget{catmm_8f_a85f67f147367aa5457086a5af5cb3e89}\label{catmm_8f_a85f67f147367aa5457086a5af5cb3e89}} 
+\index{catmm.\+f@{catmm.\+f}!nhmf2@{nhmf2}}
+\index{nhmf2@{nhmf2}!catmm.\+f@{catmm.\+f}}
+\subsubsection{\texorpdfstring{nhmf2()}{nhmf2()}}
+{\footnotesize\ttfamily subroutine nhmf2 (\begin{DoxyParamCaption}\item[{real$\ast$8}]{epoch,  }\item[{real$\ast$8}]{latitude,  }\item[{real$\ast$8}]{height,  }\item[{real$\ast$8}]{elev,  }\item[{real$\ast$8, dimension(2)}]{hmf }\end{DoxyParamCaption})}
+
+
+
+Definition at line 925 of file catmm.\+f.
+
+
+
+Referenced by atmp().
+
+\mbox{\Hypertarget{catmm_8f_aa1454243409271cf13ba3340d7fa1772}\label{catmm_8f_aa1454243409271cf13ba3340d7fa1772}} 
+\index{catmm.\+f@{catmm.\+f}!nwmf2@{nwmf2}}
+\index{nwmf2@{nwmf2}!catmm.\+f@{catmm.\+f}}
+\subsubsection{\texorpdfstring{nwmf2()}{nwmf2()}}
+{\footnotesize\ttfamily subroutine nwmf2 (\begin{DoxyParamCaption}\item[{real$\ast$8}]{latitude,  }\item[{real$\ast$8}]{elev,  }\item[{real$\ast$8, dimension(2)}]{wmf }\end{DoxyParamCaption})}
+
+
+
+Definition at line 1172 of file catmm.\+f.
+
+
+
+Referenced by atmp().
+
+\mbox{\Hypertarget{catmm_8f_a3e9b0f9d2d87d197879682e7587d63b5}\label{catmm_8f_a3e9b0f9d2d87d197879682e7587d63b5}} 
+\index{catmm.\+f@{catmm.\+f}!sastd@{sastd}}
+\index{sastd@{sastd}!catmm.\+f@{catmm.\+f}}
+\subsubsection{\texorpdfstring{sastd()}{sastd()}}
+{\footnotesize\ttfamily subroutine sastd (\begin{DoxyParamCaption}\item[{real$\ast$8}]{P,  }\item[{real$\ast$8}]{P\+D\+OT,  }\item[{real$\ast$8}]{R\+L\+AT,  }\item[{real$\ast$8}]{S\+I\+T\+E\+HT,  }\item[{real$\ast$8}]{d\+Pdh,  }\item[{real$\ast$8}]{ZD,  }\item[{real$\ast$8}]{Z\+D\+D\+OT,  }\item[{real$\ast$8}]{d\+Z\+Ddh }\end{DoxyParamCaption})}
+
+
+
+Definition at line 1300 of file catmm.\+f.
+
+
+
+Referenced by atmp().
+
+\mbox{\Hypertarget{catmm_8f_a932e6b52a7f43de7069f6c44d5d4deb2}\label{catmm_8f_a932e6b52a7f43de7069f6c44d5d4deb2}} 
+\index{catmm.\+f@{catmm.\+f}!sastw@{sastw}}
+\index{sastw@{sastw}!catmm.\+f@{catmm.\+f}}
+\subsubsection{\texorpdfstring{sastw()}{sastw()}}
+{\footnotesize\ttfamily subroutine sastw (\begin{DoxyParamCaption}\item[{real$\ast$8}]{RH,  }\item[{real$\ast$8}]{TC,  }\item[{real$\ast$8}]{R\+H\+D\+OT,  }\item[{real$\ast$8}]{T\+C\+D\+OT,  }\item[{real$\ast$8}]{ZW,  }\item[{real$\ast$8}]{Z\+W\+D\+OT }\end{DoxyParamCaption})}
+
+
+
+Definition at line 1376 of file catmm.\+f.
+
+
+
+Referenced by atmp().
+

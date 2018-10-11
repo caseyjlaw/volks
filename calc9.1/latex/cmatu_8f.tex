@@ -1,0 +1,224 @@
+\hypertarget{cmatu_8f}{}\section{cmatu.\+f File Reference}
+\label{cmatu_8f}\index{cmatu.\+f@{cmatu.\+f}}
+\subsection*{Functions/\+Subroutines}
+\begin{DoxyCompactItemize}
+\item 
+subroutine \hyperlink{cmatu_8f_a244b79ca75dda565e26ccbc7e6a27059}{rotat} (T\+H\+E\+TA, I, R)
+\item 
+subroutine \hyperlink{cmatu_8f_a05b4899387627a832cbcf67e652cbe40}{drott} (T\+H\+E\+TA, D\+T\+H\+E\+TA, I, DR)
+\item 
+subroutine \hyperlink{cmatu_8f_af7c3cf1d6c9db9ad09c09e0489ded485}{ddrot} (T\+H\+E\+TA, D\+D\+T\+H\+TA, I, D\+DR)
+\item 
+subroutine \hyperlink{cmatu_8f_a35018f10fd38c51a1a593c2401d2653a}{d3rot} (T\+H\+E\+TA, D3\+T\+H\+ET, I, D3R)
+\item 
+subroutine \hyperlink{cmatu_8f_a0c394eb642450bfe952b048edac108f8}{mmul2} (A, B, C)
+\item 
+subroutine \hyperlink{cmatu_8f_aac70d26c724db006ea31416b5d0a4309}{mmul3} (A, B, C, D)
+\item 
+subroutine \hyperlink{cmatu_8f_a72bb4b183b3bc07c3f85a40d41b9c0ba}{mmul5} (A, B, C, D, E, F)
+\item 
+subroutine \hyperlink{cmatu_8f_a263077adffea85cb61d29e749c1fdad4}{madd2} (A, B, C)
+\item 
+subroutine \hyperlink{cmatu_8f_afe0b8cd203c04f0a1dc8d555a995432d}{madd3} (A, B, C, D)
+\item 
+subroutine \hyperlink{cmatu_8f_aef2926b4c123f315cc08882e8dad33c4}{madd4} (A, B, C, D, E)
+\item 
+subroutine \hyperlink{cmatu_8f_a58b331fad230ecbbbe5829435bdbd426}{madd5} (A, B, C, D, E, F)
+\item 
+subroutine \hyperlink{cmatu_8f_a625af018d14a86ef503ced306a1523a0}{mtran} (A, B)
+\item 
+subroutine \hyperlink{cmatu_8f_a77ea712db6bef8c4347335d795ab08ea}{vecrt} (A, V, RV)
+\end{DoxyCompactItemize}
+
+
+\subsection{Function/\+Subroutine Documentation}
+\mbox{\Hypertarget{cmatu_8f_a35018f10fd38c51a1a593c2401d2653a}\label{cmatu_8f_a35018f10fd38c51a1a593c2401d2653a}} 
+\index{cmatu.\+f@{cmatu.\+f}!d3rot@{d3rot}}
+\index{d3rot@{d3rot}!cmatu.\+f@{cmatu.\+f}}
+\subsubsection{\texorpdfstring{d3rot()}{d3rot()}}
+{\footnotesize\ttfamily subroutine d3rot (\begin{DoxyParamCaption}\item[{real$\ast$8}]{T\+H\+E\+TA,  }\item[{real$\ast$8}]{D3\+T\+H\+ET,  }\item[{integer$\ast$2}]{I,  }\item[{real$\ast$8, dimension(3,3)}]{D3R }\end{DoxyParamCaption})}
+
+
+
+Definition at line 455 of file cmatu.\+f.
+
+
+
+Referenced by ut1p().
+
+\mbox{\Hypertarget{cmatu_8f_af7c3cf1d6c9db9ad09c09e0489ded485}\label{cmatu_8f_af7c3cf1d6c9db9ad09c09e0489ded485}} 
+\index{cmatu.\+f@{cmatu.\+f}!ddrot@{ddrot}}
+\index{ddrot@{ddrot}!cmatu.\+f@{cmatu.\+f}}
+\subsubsection{\texorpdfstring{ddrot()}{ddrot()}}
+{\footnotesize\ttfamily subroutine ddrot (\begin{DoxyParamCaption}\item[{real$\ast$8}]{T\+H\+E\+TA,  }\item[{real$\ast$8}]{D\+D\+T\+H\+TA,  }\item[{integer$\ast$2}]{I,  }\item[{real$\ast$8, dimension(3,3)}]{D\+DR }\end{DoxyParamCaption})}
+
+
+
+Definition at line 302 of file cmatu.\+f.
+
+
+
+Referenced by dirnl(), ut1p(), and wobp().
+
+\mbox{\Hypertarget{cmatu_8f_a05b4899387627a832cbcf67e652cbe40}\label{cmatu_8f_a05b4899387627a832cbcf67e652cbe40}} 
+\index{cmatu.\+f@{cmatu.\+f}!drott@{drott}}
+\index{drott@{drott}!cmatu.\+f@{cmatu.\+f}}
+\subsubsection{\texorpdfstring{drott()}{drott()}}
+{\footnotesize\ttfamily subroutine drott (\begin{DoxyParamCaption}\item[{real$\ast$8}]{T\+H\+E\+TA,  }\item[{real$\ast$8}]{D\+T\+H\+E\+TA,  }\item[{integer$\ast$2}]{I,  }\item[{real$\ast$8, dimension(3,3)}]{DR }\end{DoxyParamCaption})}
+
+
+
+Definition at line 150 of file cmatu.\+f.
+
+
+
+Referenced by dirnl(), fbox(), nutg(), preg(), prep(), ut1p(), wobg(), and wobp().
+
+\mbox{\Hypertarget{cmatu_8f_a263077adffea85cb61d29e749c1fdad4}\label{cmatu_8f_a263077adffea85cb61d29e749c1fdad4}} 
+\index{cmatu.\+f@{cmatu.\+f}!madd2@{madd2}}
+\index{madd2@{madd2}!cmatu.\+f@{cmatu.\+f}}
+\subsubsection{\texorpdfstring{madd2()}{madd2()}}
+{\footnotesize\ttfamily subroutine madd2 (\begin{DoxyParamCaption}\item[{real$\ast$8, dimension(3,3)}]{A,  }\item[{real$\ast$8, dimension(3,3)}]{B,  }\item[{real$\ast$8, dimension(3,3)}]{C }\end{DoxyParamCaption})}
+
+
+
+Definition at line 851 of file cmatu.\+f.
+
+
+
+Referenced by fbox(), nutp(), wobg(), and wobp().
+
+\mbox{\Hypertarget{cmatu_8f_afe0b8cd203c04f0a1dc8d555a995432d}\label{cmatu_8f_afe0b8cd203c04f0a1dc8d555a995432d}} 
+\index{cmatu.\+f@{cmatu.\+f}!madd3@{madd3}}
+\index{madd3@{madd3}!cmatu.\+f@{cmatu.\+f}}
+\subsubsection{\texorpdfstring{madd3()}{madd3()}}
+{\footnotesize\ttfamily subroutine madd3 (\begin{DoxyParamCaption}\item[{real$\ast$8, dimension(3,3)}]{A,  }\item[{real$\ast$8, dimension(3,3)}]{B,  }\item[{real$\ast$8, dimension(3,3)}]{C,  }\item[{real$\ast$8, dimension(3,3)}]{D }\end{DoxyParamCaption})}
+
+
+
+Definition at line 930 of file cmatu.\+f.
+
+
+
+Referenced by m2000(), nutg(), preg(), and prep().
+
+\mbox{\Hypertarget{cmatu_8f_aef2926b4c123f315cc08882e8dad33c4}\label{cmatu_8f_aef2926b4c123f315cc08882e8dad33c4}} 
+\index{cmatu.\+f@{cmatu.\+f}!madd4@{madd4}}
+\index{madd4@{madd4}!cmatu.\+f@{cmatu.\+f}}
+\subsubsection{\texorpdfstring{madd4()}{madd4()}}
+{\footnotesize\ttfamily subroutine madd4 (\begin{DoxyParamCaption}\item[{real$\ast$8, dimension(3,3)}]{A,  }\item[{real$\ast$8, dimension(3,3)}]{B,  }\item[{real$\ast$8, dimension(3,3)}]{C,  }\item[{real$\ast$8, dimension(3,3)}]{D,  }\item[{real$\ast$8, dimension(3,3)}]{E }\end{DoxyParamCaption})}
+
+
+
+Definition at line 1011 of file cmatu.\+f.
+
+
+
+Referenced by m2000(), and wobp().
+
+\mbox{\Hypertarget{cmatu_8f_a58b331fad230ecbbbe5829435bdbd426}\label{cmatu_8f_a58b331fad230ecbbbe5829435bdbd426}} 
+\index{cmatu.\+f@{cmatu.\+f}!madd5@{madd5}}
+\index{madd5@{madd5}!cmatu.\+f@{cmatu.\+f}}
+\subsubsection{\texorpdfstring{madd5()}{madd5()}}
+{\footnotesize\ttfamily subroutine madd5 (\begin{DoxyParamCaption}\item[{real$\ast$8, dimension(3,3)}]{A,  }\item[{real$\ast$8, dimension(3,3)}]{B,  }\item[{real$\ast$8, dimension(3,3)}]{C,  }\item[{real$\ast$8, dimension(3,3)}]{D,  }\item[{real$\ast$8, dimension(3,3)}]{E,  }\item[{real$\ast$8, dimension(3,3)}]{F }\end{DoxyParamCaption})}
+
+
+
+Definition at line 1090 of file cmatu.\+f.
+
+
+
+Referenced by m2000().
+
+\mbox{\Hypertarget{cmatu_8f_a0c394eb642450bfe952b048edac108f8}\label{cmatu_8f_a0c394eb642450bfe952b048edac108f8}} 
+\index{cmatu.\+f@{cmatu.\+f}!mmul2@{mmul2}}
+\index{mmul2@{mmul2}!cmatu.\+f@{cmatu.\+f}}
+\subsubsection{\texorpdfstring{mmul2()}{mmul2()}}
+{\footnotesize\ttfamily subroutine mmul2 (\begin{DoxyParamCaption}\item[{real$\ast$8, dimension(3,3)}]{A,  }\item[{real$\ast$8, dimension(3,3)}]{B,  }\item[{real$\ast$8, dimension(3,3)}]{C }\end{DoxyParamCaption})}
+
+
+
+Definition at line 607 of file cmatu.\+f.
+
+
+
+Referenced by fbox(), mmul3(), siti(), wobg(), and wobp().
+
+\mbox{\Hypertarget{cmatu_8f_aac70d26c724db006ea31416b5d0a4309}\label{cmatu_8f_aac70d26c724db006ea31416b5d0a4309}} 
+\index{cmatu.\+f@{cmatu.\+f}!mmul3@{mmul3}}
+\index{mmul3@{mmul3}!cmatu.\+f@{cmatu.\+f}}
+\subsubsection{\texorpdfstring{mmul3()}{mmul3()}}
+{\footnotesize\ttfamily subroutine mmul3 (\begin{DoxyParamCaption}\item[{real$\ast$8, dimension(3,3)}]{A,  }\item[{real$\ast$8, dimension(3,3)}]{B,  }\item[{real$\ast$8, dimension(3,3)}]{C,  }\item[{real$\ast$8, dimension(3,3)}]{D }\end{DoxyParamCaption})}
+
+
+
+Definition at line 689 of file cmatu.\+f.
+
+
+
+References mmul2().
+
+
+
+Referenced by mmul5(), nutg(), preg(), and prep().
+
+\mbox{\Hypertarget{cmatu_8f_a72bb4b183b3bc07c3f85a40d41b9c0ba}\label{cmatu_8f_a72bb4b183b3bc07c3f85a40d41b9c0ba}} 
+\index{cmatu.\+f@{cmatu.\+f}!mmul5@{mmul5}}
+\index{mmul5@{mmul5}!cmatu.\+f@{cmatu.\+f}}
+\subsubsection{\texorpdfstring{mmul5()}{mmul5()}}
+{\footnotesize\ttfamily subroutine mmul5 (\begin{DoxyParamCaption}\item[{real$\ast$8, dimension(3,3)}]{A,  }\item[{real$\ast$8, dimension(3,3)}]{B,  }\item[{real$\ast$8, dimension(3,3)}]{C,  }\item[{real$\ast$8, dimension(3,3)}]{D,  }\item[{real$\ast$8, dimension(3,3)}]{E,  }\item[{real$\ast$8, dimension(3,3)}]{F }\end{DoxyParamCaption})}
+
+
+
+Definition at line 767 of file cmatu.\+f.
+
+
+
+References mmul3().
+
+
+
+Referenced by m2000(), nutp(), prep(), ut1p(), and wobp().
+
+\mbox{\Hypertarget{cmatu_8f_a625af018d14a86ef503ced306a1523a0}\label{cmatu_8f_a625af018d14a86ef503ced306a1523a0}} 
+\index{cmatu.\+f@{cmatu.\+f}!mtran@{mtran}}
+\index{mtran@{mtran}!cmatu.\+f@{cmatu.\+f}}
+\subsubsection{\texorpdfstring{mtran()}{mtran()}}
+{\footnotesize\ttfamily subroutine mtran (\begin{DoxyParamCaption}\item[{real$\ast$8, dimension(3,3)}]{A,  }\item[{real$\ast$8, dimension(3,3)}]{B }\end{DoxyParamCaption})}
+
+
+
+Definition at line 1175 of file cmatu.\+f.
+
+
+
+Referenced by atmg(), axog(), and etdg().
+
+\mbox{\Hypertarget{cmatu_8f_a244b79ca75dda565e26ccbc7e6a27059}\label{cmatu_8f_a244b79ca75dda565e26ccbc7e6a27059}} 
+\index{cmatu.\+f@{cmatu.\+f}!rotat@{rotat}}
+\index{rotat@{rotat}!cmatu.\+f@{cmatu.\+f}}
+\subsubsection{\texorpdfstring{rotat()}{rotat()}}
+{\footnotesize\ttfamily subroutine rotat (\begin{DoxyParamCaption}\item[{real$\ast$8}]{T\+H\+E\+TA,  }\item[{integer$\ast$2}]{I,  }\item[{real$\ast$8, dimension(3,3)}]{R }\end{DoxyParamCaption})}
+
+
+
+Definition at line 2 of file cmatu.\+f.
+
+
+
+Referenced by dirnl(), drivr(), fbox(), nutg(), preg(), siti(), and wobg().
+
+\mbox{\Hypertarget{cmatu_8f_a77ea712db6bef8c4347335d795ab08ea}\label{cmatu_8f_a77ea712db6bef8c4347335d795ab08ea}} 
+\index{cmatu.\+f@{cmatu.\+f}!vecrt@{vecrt}}
+\index{vecrt@{vecrt}!cmatu.\+f@{cmatu.\+f}}
+\subsubsection{\texorpdfstring{vecrt()}{vecrt()}}
+{\footnotesize\ttfamily subroutine vecrt (\begin{DoxyParamCaption}\item[{real$\ast$8, dimension(3,3)}]{A,  }\item[{real$\ast$8, dimension(3)}]{V,  }\item[{real$\ast$8, dimension(3)}]{RV }\end{DoxyParamCaption})}
+
+
+
+Definition at line 1252 of file cmatu.\+f.
+
+
+
+Referenced by atmg(), axog(), etdc8(), etdg(), fbox(), nutp(), oceg(), prep(), ptdg(), rosit(), ut1p(), and wobp().
+

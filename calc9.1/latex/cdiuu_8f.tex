@@ -1,0 +1,80 @@
+\hypertarget{cdiuu_8f}{}\section{cdiuu.\+f File Reference}
+\label{cdiuu_8f}\index{cdiuu.\+f@{cdiuu.\+f}}
+\subsection*{Functions/\+Subroutines}
+\begin{DoxyCompactItemize}
+\item 
+subroutine \hyperlink{cdiuu_8f_a7d9f897dfdb255f00c14010c93ce63fc}{dirna}
+\item 
+subroutine \hyperlink{cdiuu_8f_af600fe33d7c5f30bef94ae042d07b5fa}{dirnl} (D\+A\+T\+D\+CT, D\+P\+SI, D\+U\+T1\+AT, E\+PS, D\+E\+PS, FA, U\+T1, X\+JD, D\+I\+U\+R\+NV, G\+A\+ST, G\+M\+ST, G\+A\+S\+TD, RS)
+\item 
+subroutine \hyperlink{cdiuu_8f_aa985762c7815110573474373be8645fb}{eqeg} (gmst, dpsi, eps, epsmd, omega, gast, gastd)
+\item 
+subroutine \hyperlink{cdiuu_8f_a546cf71e3beb8a6b66da1fe491c7a2b3}{dirnc} (gastd, dut1p)
+\end{DoxyCompactItemize}
+
+
+\subsection{Function/\+Subroutine Documentation}
+\mbox{\Hypertarget{cdiuu_8f_a7d9f897dfdb255f00c14010c93ce63fc}\label{cdiuu_8f_a7d9f897dfdb255f00c14010c93ce63fc}} 
+\index{cdiuu.\+f@{cdiuu.\+f}!dirna@{dirna}}
+\index{dirna@{dirna}!cdiuu.\+f@{cdiuu.\+f}}
+\subsubsection{\texorpdfstring{dirna()}{dirna()}}
+{\footnotesize\ttfamily subroutine dirna (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 2 of file cdiuu.\+f.
+
+
+
+References addr(), and delr().
+
+\mbox{\Hypertarget{cdiuu_8f_a546cf71e3beb8a6b66da1fe491c7a2b3}\label{cdiuu_8f_a546cf71e3beb8a6b66da1fe491c7a2b3}} 
+\index{cdiuu.\+f@{cdiuu.\+f}!dirnc@{dirnc}}
+\index{dirnc@{dirnc}!cdiuu.\+f@{cdiuu.\+f}}
+\subsubsection{\texorpdfstring{dirnc()}{dirnc()}}
+{\footnotesize\ttfamily subroutine dirnc (\begin{DoxyParamCaption}\item[{real$\ast$8}]{gastd,  }\item[{real$\ast$8, dimension(2,2)}]{dut1p }\end{DoxyParamCaption})}
+
+
+
+Definition at line 385 of file cdiuu.\+f.
+
+
+
+References put4().
+
+
+
+Referenced by drivr().
+
+\mbox{\Hypertarget{cdiuu_8f_af600fe33d7c5f30bef94ae042d07b5fa}\label{cdiuu_8f_af600fe33d7c5f30bef94ae042d07b5fa}} 
+\index{cdiuu.\+f@{cdiuu.\+f}!dirnl@{dirnl}}
+\index{dirnl@{dirnl}!cdiuu.\+f@{cdiuu.\+f}}
+\subsubsection{\texorpdfstring{dirnl()}{dirnl()}}
+{\footnotesize\ttfamily subroutine dirnl (\begin{DoxyParamCaption}\item[{real$\ast$8}]{D\+A\+T\+D\+CT,  }\item[{real$\ast$8, dimension(2)}]{D\+P\+SI,  }\item[{real$\ast$8}]{D\+U\+T1\+AT,  }\item[{real$\ast$8, dimension(2)}]{E\+PS,  }\item[{real$\ast$8, dimension(2)}]{D\+E\+PS,  }\item[{real$\ast$8, dimension(5)}]{FA,  }\item[{real$\ast$8}]{U\+T1,  }\item[{real$\ast$8}]{X\+JD,  }\item[{real$\ast$8}]{D\+I\+U\+R\+NV,  }\item[{real$\ast$8, dimension(2)}]{G\+A\+ST,  }\item[{real$\ast$8}]{G\+M\+ST,  }\item[{real$\ast$8}]{G\+A\+S\+TD,  }\item[{real$\ast$8, dimension(3,3,3)}]{RS }\end{DoxyParamCaption})}
+
+
+
+Definition at line 53 of file cdiuu.\+f.
+
+
+
+References ddrot(), drott(), eqeg(), and rotat().
+
+
+
+Referenced by drivr().
+
+\mbox{\Hypertarget{cdiuu_8f_aa985762c7815110573474373be8645fb}\label{cdiuu_8f_aa985762c7815110573474373be8645fb}} 
+\index{cdiuu.\+f@{cdiuu.\+f}!eqeg@{eqeg}}
+\index{eqeg@{eqeg}!cdiuu.\+f@{cdiuu.\+f}}
+\subsubsection{\texorpdfstring{eqeg()}{eqeg()}}
+{\footnotesize\ttfamily subroutine eqeg (\begin{DoxyParamCaption}\item[{real$\ast$8}]{gmst,  }\item[{real$\ast$8}]{dpsi,  }\item[{real$\ast$8}]{eps,  }\item[{real$\ast$8}]{epsmd,  }\item[{real$\ast$8}]{omega,  }\item[{real$\ast$8, dimension(2)}]{gast,  }\item[{real$\ast$8}]{gastd }\end{DoxyParamCaption})}
+
+
+
+Definition at line 283 of file cdiuu.\+f.
+
+
+
+Referenced by dirnl().
+

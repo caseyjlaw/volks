@@ -1,0 +1,124 @@
+\hypertarget{cstrm_8f}{}\section{cstrm.\+f File Reference}
+\label{cstrm_8f}\index{cstrm.\+f@{cstrm.\+f}}
+\subsection*{Functions/\+Subroutines}
+\begin{DoxyCompactItemize}
+\item 
+subroutine \hyperlink{cstrm_8f_aa1037acded2c0ef566a062bfc4609d4a}{stra}
+\item 
+subroutine \hyperlink{cstrm_8f_a6cebfa9d7b09bbf12e73113d94dae7ed}{stri}
+\item 
+subroutine \hyperlink{cstrm_8f_ac7544830764ddfede7a3de635483a4e5}{strg} (X\+JD, U\+TC, S\+T\+AR)
+\item 
+subroutine \hyperlink{cstrm_8f_abd2539dadf01efc58dae10cbed8b911e}{strp} (E\+P\+B\+A\+SE, S\+T\+AR, E\+A\+R\+TH, S\+I\+T\+EV, D\+S\+T\+RP, C\+DX, C\+R\+AX, S\+DX, S\+R\+AX)
+\item 
+subroutine \hyperlink{cstrm_8f_ac3e33c44ae38370d63973579100c33a2}{strc} (D\+S\+T\+RP)
+\item 
+subroutine \hyperlink{cstrm_8f_ac40e28cce05ed1dd7c0f0dc668c7e041}{strin} (Kerr)
+\end{DoxyCompactItemize}
+
+
+\subsection{Function/\+Subroutine Documentation}
+\mbox{\Hypertarget{cstrm_8f_aa1037acded2c0ef566a062bfc4609d4a}\label{cstrm_8f_aa1037acded2c0ef566a062bfc4609d4a}} 
+\index{cstrm.\+f@{cstrm.\+f}!stra@{stra}}
+\index{stra@{stra}!cstrm.\+f@{cstrm.\+f}}
+\subsubsection{\texorpdfstring{stra()}{stra()}}
+{\footnotesize\ttfamily subroutine stra (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 2 of file cstrm.\+f.
+
+
+
+References adda(), addr(), and delr().
+
+\mbox{\Hypertarget{cstrm_8f_ac3e33c44ae38370d63973579100c33a2}\label{cstrm_8f_ac3e33c44ae38370d63973579100c33a2}} 
+\index{cstrm.\+f@{cstrm.\+f}!strc@{strc}}
+\index{strc@{strc}!cstrm.\+f@{cstrm.\+f}}
+\subsubsection{\texorpdfstring{strc()}{strc()}}
+{\footnotesize\ttfamily subroutine strc (\begin{DoxyParamCaption}\item[{real$\ast$8, dimension(2,2)}]{D\+S\+T\+RP }\end{DoxyParamCaption})}
+
+
+
+Definition at line 945 of file cstrm.\+f.
+
+
+
+References put4().
+
+
+
+Referenced by drivr().
+
+\mbox{\Hypertarget{cstrm_8f_ac7544830764ddfede7a3de635483a4e5}\label{cstrm_8f_ac7544830764ddfede7a3de635483a4e5}} 
+\index{cstrm.\+f@{cstrm.\+f}!strg@{strg}}
+\index{strg@{strg}!cstrm.\+f@{cstrm.\+f}}
+\subsubsection{\texorpdfstring{strg()}{strg()}}
+{\footnotesize\ttfamily subroutine strg (\begin{DoxyParamCaption}\item[{real$\ast$8}]{X\+JD,  }\item[{real$\ast$8}]{U\+TC,  }\item[{real$\ast$8, dimension(3)}]{S\+T\+AR }\end{DoxyParamCaption})}
+
+
+
+Definition at line 510 of file cstrm.\+f.
+
+
+
+References ckill(), geti(), and jdy2k().
+
+
+
+Referenced by drivr().
+
+\mbox{\Hypertarget{cstrm_8f_a6cebfa9d7b09bbf12e73113d94dae7ed}\label{cstrm_8f_a6cebfa9d7b09bbf12e73113d94dae7ed}} 
+\index{cstrm.\+f@{cstrm.\+f}!stri@{stri}}
+\index{stri@{stri}!cstrm.\+f@{cstrm.\+f}}
+\subsubsection{\texorpdfstring{stri()}{stri()}}
+{\footnotesize\ttfamily subroutine stri (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 183 of file cstrm.\+f.
+
+
+
+References ckill(), get4(), geta(), geti(), put4(), puta(), and strin().
+
+
+
+Referenced by initl().
+
+\mbox{\Hypertarget{cstrm_8f_ac40e28cce05ed1dd7c0f0dc668c7e041}\label{cstrm_8f_ac40e28cce05ed1dd7c0f0dc668c7e041}} 
+\index{cstrm.\+f@{cstrm.\+f}!strin@{strin}}
+\index{strin@{strin}!cstrm.\+f@{cstrm.\+f}}
+\subsubsection{\texorpdfstring{strin()}{strin()}}
+{\footnotesize\ttfamily subroutine strin (\begin{DoxyParamCaption}\item[{integer$\ast$2, dimension(3)}]{Kerr }\end{DoxyParamCaption})}
+
+
+
+Definition at line 1030 of file cstrm.\+f.
+
+
+
+References ckill(), puta(), and putr().
+
+
+
+Referenced by stri().
+
+\mbox{\Hypertarget{cstrm_8f_abd2539dadf01efc58dae10cbed8b911e}\label{cstrm_8f_abd2539dadf01efc58dae10cbed8b911e}} 
+\index{cstrm.\+f@{cstrm.\+f}!strp@{strp}}
+\index{strp@{strp}!cstrm.\+f@{cstrm.\+f}}
+\subsubsection{\texorpdfstring{strp()}{strp()}}
+{\footnotesize\ttfamily subroutine strp (\begin{DoxyParamCaption}\item[{real$\ast$8, dimension(3,2)}]{E\+P\+B\+A\+SE,  }\item[{real$\ast$8, dimension(3)}]{S\+T\+AR,  }\item[{real$\ast$8, dimension(3,3)}]{E\+A\+R\+TH,  }\item[{real$\ast$8, dimension(3,2)}]{S\+I\+T\+EV,  }\item[{real$\ast$8, dimension(2,2)}]{D\+S\+T\+RP,  }\item[{real$\ast$8}]{C\+DX,  }\item[{real$\ast$8}]{C\+R\+AX,  }\item[{real$\ast$8}]{S\+DX,  }\item[{real$\ast$8}]{S\+R\+AX }\end{DoxyParamCaption})}
+
+
+
+Definition at line 746 of file cstrm.\+f.
+
+
+
+References dotp(), and put4().
+
+
+
+Referenced by drivr().
+

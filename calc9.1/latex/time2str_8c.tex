@@ -1,0 +1,113 @@
+\hypertarget{time2str_8c}{}\section{time2str.\+c File Reference}
+\label{time2str_8c}\index{time2str.\+c@{time2str.\+c}}
+{\ttfamily \#include $<$ctype.\+h$>$}\newline
+{\ttfamily \#include $<$string.\+h$>$}\newline
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}M\+A\+T\+H\+C\+N\+S\+T.\+H\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}vlb.\+h\char`\"{}}\newline
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+char $\ast$ \hyperlink{time2str_8c_af9bd6b20f0d5306ee0a01e9f2a687313}{mjd2str} (long mjd, char $\ast$pstring)
+\item 
+char $\ast$ \hyperlink{time2str_8c_ad404fac9788cd246130849124fc56ea9}{rad2strg} (double angle, char $\ast$p\+Format, char $\ast$p\+Out\+Str, \hyperlink{vlb_8h_a050c65e107f0c828f856a231f4b4e788}{B\+O\+OL} round\+Flag)
+\item 
+char $\ast$ \hyperlink{time2str_8c_a67ec9942bd6dd02f5de394f1cabf6dd6}{rad2str} (double angle, char $\ast$p\+Format, char $\ast$p\+Out\+Str)
+\item 
+char $\ast$ \hyperlink{time2str_8c_a5b9f37ef1cf4bb99afb9bbcdce7fbdab}{time2str} (double in\+Time, char $\ast$p\+Format, char $\ast$p\+Out\+Str)
+\item 
+char $\ast$ \hyperlink{time2str_8c_a4450c00711bbbdce5a98379f931cab08}{time\+Mjd2str} (double in\+Time, char $\ast$p\+Out\+Str)
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{time2str_8c_af9bd6b20f0d5306ee0a01e9f2a687313}\label{time2str_8c_af9bd6b20f0d5306ee0a01e9f2a687313}} 
+\index{time2str.\+c@{time2str.\+c}!mjd2str@{mjd2str}}
+\index{mjd2str@{mjd2str}!time2str.\+c@{time2str.\+c}}
+\subsubsection{\texorpdfstring{mjd2str()}{mjd2str()}}
+{\footnotesize\ttfamily char$\ast$ mjd2str (\begin{DoxyParamCaption}\item[{long}]{mjd,  }\item[{char $\ast$}]{pstring }\end{DoxyParamCaption})}
+
+
+
+Definition at line 85 of file mjd2str.\+c.
+
+
+
+References E\+R\+R\+OR, mjd2date(), and mjd2dayno().
+
+
+
+Referenced by time2str().
+
+\mbox{\Hypertarget{time2str_8c_a67ec9942bd6dd02f5de394f1cabf6dd6}\label{time2str_8c_a67ec9942bd6dd02f5de394f1cabf6dd6}} 
+\index{time2str.\+c@{time2str.\+c}!rad2str@{rad2str}}
+\index{rad2str@{rad2str}!time2str.\+c@{time2str.\+c}}
+\subsubsection{\texorpdfstring{rad2str()}{rad2str()}}
+{\footnotesize\ttfamily char$\ast$ rad2str (\begin{DoxyParamCaption}\item[{double}]{angle,  }\item[{char $\ast$}]{p\+Format,  }\item[{char $\ast$}]{p\+Out\+Str }\end{DoxyParamCaption})}
+
+
+
+Definition at line 279 of file time2str.\+c.
+
+
+
+References rad2strg(), and time2str().
+
+
+
+Referenced by date2str(), and time2str().
+
+\mbox{\Hypertarget{time2str_8c_ad404fac9788cd246130849124fc56ea9}\label{time2str_8c_ad404fac9788cd246130849124fc56ea9}} 
+\index{time2str.\+c@{time2str.\+c}!rad2strg@{rad2strg}}
+\index{rad2strg@{rad2strg}!time2str.\+c@{time2str.\+c}}
+\subsubsection{\texorpdfstring{rad2strg()}{rad2strg()}}
+{\footnotesize\ttfamily char$\ast$ rad2strg (\begin{DoxyParamCaption}\item[{double}]{angle,  }\item[{char $\ast$}]{p\+Format,  }\item[{char $\ast$}]{p\+Out\+Str,  }\item[{\hyperlink{vlb_8h_a050c65e107f0c828f856a231f4b4e788}{B\+O\+OL}}]{round\+Flag }\end{DoxyParamCaption})}
+
+
+
+Definition at line 116 of file time2str.\+c.
+
+
+
+References F\+A\+L\+SE, and isdigit.
+
+
+
+Referenced by rad2str().
+
+\mbox{\Hypertarget{time2str_8c_a5b9f37ef1cf4bb99afb9bbcdce7fbdab}\label{time2str_8c_a5b9f37ef1cf4bb99afb9bbcdce7fbdab}} 
+\index{time2str.\+c@{time2str.\+c}!time2str@{time2str}}
+\index{time2str@{time2str}!time2str.\+c@{time2str.\+c}}
+\subsubsection{\texorpdfstring{time2str()}{time2str()}}
+{\footnotesize\ttfamily char$\ast$ time2str (\begin{DoxyParamCaption}\item[{double}]{in\+Time,  }\item[{char $\ast$}]{p\+Format,  }\item[{char $\ast$}]{p\+Out\+Str }\end{DoxyParamCaption})}
+
+
+
+Definition at line 297 of file time2str.\+c.
+
+
+
+References mjd2str(), N\+U\+LL, rad2str(), and time\+Mjd2str().
+
+
+
+Referenced by rad2str(), and time\+Mjd2str().
+
+\mbox{\Hypertarget{time2str_8c_a4450c00711bbbdce5a98379f931cab08}\label{time2str_8c_a4450c00711bbbdce5a98379f931cab08}} 
+\index{time2str.\+c@{time2str.\+c}!time\+Mjd2str@{time\+Mjd2str}}
+\index{time\+Mjd2str@{time\+Mjd2str}!time2str.\+c@{time2str.\+c}}
+\subsubsection{\texorpdfstring{time\+Mjd2str()}{timeMjd2str()}}
+{\footnotesize\ttfamily char$\ast$ time\+Mjd2str (\begin{DoxyParamCaption}\item[{double}]{in\+Time,  }\item[{char $\ast$}]{p\+Out\+Str }\end{DoxyParamCaption})}
+
+
+
+Definition at line 342 of file time2str.\+c.
+
+
+
+References time2str().
+
+
+
+Referenced by time2str().
+

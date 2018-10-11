@@ -3,13 +3,13 @@
 
 ## Introduction
 
-The VOLKS pipeline is designed to carry out single pulse search and localization in VLBI data. Unlike the radio imaging based pipeline, in VOLKS, the search and localization are two independent steps. The search step takes the idea of geodetic VLBI post processing, which fully uses the cross spectrum fringe phase information to maximize the single power. Compared with auto spectrum based method, it is able to extract single pulses from highly RFI contaminated data. The localization now supports both radio imaging and geodetic solving methods. We may prove that two methods give consistent result. In general, VOLKS makes it possible to carry out single pulse search in a totally non-imaging way. 
+The VOLKS pipeline is designed to carry out single pulse search and localization in VLBI data. Unlike the radio imaging based pipeline, in VOLKS, the search and localization are two independent steps. The search step takes the idea of geodetic and astrometric VLBI post processing, which fully uses the cross spectrum fringe phase information to maximize the single power. Compared with auto spectrum based method, it is able to extract single pulses from highly RFI contaminated data. The localization now supports both radio imaging and astrometric solving methods. We may prove that two methods give consistent result. In general, VOLKS makes it possible to carry out single pulse search in a totally non-imaging way. 
 
 **Note**: If you make use of VOLKS pipeline in your publication, we require that you quote the pipeline web address https://github.com/liulei/volks and reference the following papers:
 
 - `Liu, L., Tong, F., Zheng, W., Zhang, J. & Tong, L. 2018, AJ, 155, 98`, which describes the non-imaging single pulse search method.
 - `Liu, L., Zheng, W., Yan, Z. & Zhang, J. 2018, Research in Astronomy and Astrophysics, 18, 069`, which compares the cross spectrum based method and the auto based spectrum method for single pulse serach in VLBI observation.
-- `Liu, L., Jiang, W., Zheng, W., et al. 2018, to be submitted soon`, which describes the radio imaging and geodetic solving single pulse localzation methods.
+- `Liu, L., Jiang, W., Zheng, W., et al. 2018, to be submitted soon`, which describes the radio imaging and astrometric solving single pulse localzation methods.
 
 Please do not hesitate to contact me (liulei@shao.ac.cn) if you have any problem.
 
@@ -167,7 +167,7 @@ This pipeline is not designed to be used as black box, at least not in current v
 
 **Description**:
 
-- Localize single pulses using both imaging and geodetic solving method. 
+- Localize single pulses using both imaging and astrometric solving method. 
 - Visibilities in FITS-IDI file that belong to one single pulse are first grouped together. Then each of these single pulses are localized with `solve()` and `imaging()` independently.
 
 **Input**:

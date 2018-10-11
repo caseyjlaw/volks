@@ -1,0 +1,116 @@
+\hypertarget{cocem_8f}{}\section{cocem.\+f File Reference}
+\label{cocem_8f}\index{cocem.\+f@{cocem.\+f}}
+\subsection*{Functions/\+Subroutines}
+\begin{DoxyCompactItemize}
+\item 
+subroutine \hyperlink{cocem_8f_ad27f5f74f277b21b214051741c9153b8}{ocea}
+\item 
+subroutine \hyperlink{cocem_8f_aed92fd2616eadf325988953474a7bf01}{ocei}
+\item 
+subroutine \hyperlink{cocem_8f_ad3abe403ce2db9218178965a1a37fd08}{oceg} (C\+F\+S\+I\+TE, U\+T1, O\+C\+E\+A\+MP, O\+C\+E\+P\+HS, R2000, X\+JD, T\+C\+T\+O\+CF, T\+S\+K\+IP, X\+L\+O\+A\+DP, X\+L\+O\+A\+DV)
+\item 
+subroutine \hyperlink{cocem_8f_a007bf5973b6afe4ae1f1523d2af38927}{ocep}
+\item 
+subroutine \hyperlink{cocem_8f_ab7ac33bca850390c04cef9c971b3aa2a}{ocec} (S\+T\+AR)
+\item 
+subroutine \hyperlink{cocem_8f_ab760d480a6657b95692a39c68673cbcc}{ocarg} (U\+T1, X\+JD, A\+N\+G\+LE)
+\end{DoxyCompactItemize}
+
+
+\subsection{Function/\+Subroutine Documentation}
+\mbox{\Hypertarget{cocem_8f_ab760d480a6657b95692a39c68673cbcc}\label{cocem_8f_ab760d480a6657b95692a39c68673cbcc}} 
+\index{cocem.\+f@{cocem.\+f}!ocarg@{ocarg}}
+\index{ocarg@{ocarg}!cocem.\+f@{cocem.\+f}}
+\subsubsection{\texorpdfstring{ocarg()}{ocarg()}}
+{\footnotesize\ttfamily subroutine ocarg (\begin{DoxyParamCaption}\item[{real$\ast$8}]{U\+T1,  }\item[{real$\ast$8}]{X\+JD,  }\item[{real$\ast$8, dimension(11)}]{A\+N\+G\+LE }\end{DoxyParamCaption})}
+
+
+
+Definition at line 778 of file cocem.\+f.
+
+
+
+Referenced by oceg().
+
+\mbox{\Hypertarget{cocem_8f_ad27f5f74f277b21b214051741c9153b8}\label{cocem_8f_ad27f5f74f277b21b214051741c9153b8}} 
+\index{cocem.\+f@{cocem.\+f}!ocea@{ocea}}
+\index{ocea@{ocea}!cocem.\+f@{cocem.\+f}}
+\subsubsection{\texorpdfstring{ocea()}{ocea()}}
+{\footnotesize\ttfamily subroutine ocea (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 2 of file cocem.\+f.
+
+
+
+References adda(), and addr().
+
+\mbox{\Hypertarget{cocem_8f_ab7ac33bca850390c04cef9c971b3aa2a}\label{cocem_8f_ab7ac33bca850390c04cef9c971b3aa2a}} 
+\index{cocem.\+f@{cocem.\+f}!ocec@{ocec}}
+\index{ocec@{ocec}!cocem.\+f@{cocem.\+f}}
+\subsubsection{\texorpdfstring{ocec()}{ocec()}}
+{\footnotesize\ttfamily subroutine ocec (\begin{DoxyParamCaption}\item[{real$\ast$8, dimension(3)}]{S\+T\+AR }\end{DoxyParamCaption})}
+
+
+
+Definition at line 621 of file cocem.\+f.
+
+
+
+References dotp(), put4(), and vecsb().
+
+
+
+Referenced by drivr().
+
+\mbox{\Hypertarget{cocem_8f_ad3abe403ce2db9218178965a1a37fd08}\label{cocem_8f_ad3abe403ce2db9218178965a1a37fd08}} 
+\index{cocem.\+f@{cocem.\+f}!oceg@{oceg}}
+\index{oceg@{oceg}!cocem.\+f@{cocem.\+f}}
+\subsubsection{\texorpdfstring{oceg()}{oceg()}}
+{\footnotesize\ttfamily subroutine oceg (\begin{DoxyParamCaption}\item[{real$\ast$8, dimension(3,2)}]{C\+F\+S\+I\+TE,  }\item[{real$\ast$8}]{U\+T1,  }\item[{real$\ast$8, dimension(11,3,2)}]{O\+C\+E\+A\+MP,  }\item[{real$\ast$8, dimension(11,3,2)}]{O\+C\+E\+P\+HS,  }\item[{real$\ast$8, dimension(3,3,3)}]{R2000,  }\item[{real$\ast$8}]{X\+JD,  }\item[{real$\ast$8, dimension(3,3,2)}]{T\+C\+T\+O\+CF,  }\item[{integer$\ast$4}]{T\+S\+K\+IP,  }\item[{real$\ast$8, dimension(3,2)}]{X\+L\+O\+A\+DP,  }\item[{real$\ast$8, dimension(3,2)}]{X\+L\+O\+A\+DV }\end{DoxyParamCaption})}
+
+
+
+Definition at line 188 of file cocem.\+f.
+
+
+
+References ocarg(), put4(), vecad(), and vecrt().
+
+
+
+Referenced by drivr().
+
+\mbox{\Hypertarget{cocem_8f_aed92fd2616eadf325988953474a7bf01}\label{cocem_8f_aed92fd2616eadf325988953474a7bf01}} 
+\index{cocem.\+f@{cocem.\+f}!ocei@{ocei}}
+\index{ocei@{ocei}!cocem.\+f@{cocem.\+f}}
+\subsubsection{\texorpdfstring{ocei()}{ocei()}}
+{\footnotesize\ttfamily subroutine ocei (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 82 of file cocem.\+f.
+
+
+
+References ckill(), and puta().
+
+
+
+Referenced by initl().
+
+\mbox{\Hypertarget{cocem_8f_a007bf5973b6afe4ae1f1523d2af38927}\label{cocem_8f_a007bf5973b6afe4ae1f1523d2af38927}} 
+\index{cocem.\+f@{cocem.\+f}!ocep@{ocep}}
+\index{ocep@{ocep}!cocem.\+f@{cocem.\+f}}
+\subsubsection{\texorpdfstring{ocep()}{ocep()}}
+{\footnotesize\ttfamily subroutine ocep (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 611 of file cocem.\+f.
+
+
+
+Referenced by drivr().
+

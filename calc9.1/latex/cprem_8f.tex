@@ -1,0 +1,96 @@
+\hypertarget{cprem_8f}{}\section{cprem.\+f File Reference}
+\label{cprem_8f}\index{cprem.\+f@{cprem.\+f}}
+\subsection*{Functions/\+Subroutines}
+\begin{DoxyCompactItemize}
+\item 
+subroutine \hyperlink{cprem_8f_abbaca1008d54fe781d8b205af8f469cd}{prea}
+\item 
+subroutine \hyperlink{cprem_8f_a3e18e670c3f7745523dc759fa5957b4b}{prei}
+\item 
+subroutine \hyperlink{cprem_8f_a532eba7295b2fd29ded9aabb90b5a646}{preg} (CT, E\+P\+S\+M\+NR, X\+JD, RP)
+\item 
+subroutine \hyperlink{cprem_8f_a6d118ab3a0eb30a4e5ea2e73ed5c6ccc}{prep} (C\+F\+B\+A\+SE, E\+P\+S\+M\+NR, R\+D\+NP, RN, RS, RW, S\+T\+AR)
+\item 
+subroutine \hyperlink{cprem_8f_a2f3fb37220917811606624e678d211bb}{prec}
+\end{DoxyCompactItemize}
+
+
+\subsection{Function/\+Subroutine Documentation}
+\mbox{\Hypertarget{cprem_8f_abbaca1008d54fe781d8b205af8f469cd}\label{cprem_8f_abbaca1008d54fe781d8b205af8f469cd}} 
+\index{cprem.\+f@{cprem.\+f}!prea@{prea}}
+\index{prea@{prea}!cprem.\+f@{cprem.\+f}}
+\subsubsection{\texorpdfstring{prea()}{prea()}}
+{\footnotesize\ttfamily subroutine prea (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 2 of file cprem.\+f.
+
+
+
+References adda(), and addr().
+
+\mbox{\Hypertarget{cprem_8f_a2f3fb37220917811606624e678d211bb}\label{cprem_8f_a2f3fb37220917811606624e678d211bb}} 
+\index{cprem.\+f@{cprem.\+f}!prec@{prec}}
+\index{prec@{prec}!cprem.\+f@{cprem.\+f}}
+\subsubsection{\texorpdfstring{prec()}{prec()}}
+{\footnotesize\ttfamily subroutine prec (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 764 of file cprem.\+f.
+
+\mbox{\Hypertarget{cprem_8f_a532eba7295b2fd29ded9aabb90b5a646}\label{cprem_8f_a532eba7295b2fd29ded9aabb90b5a646}} 
+\index{cprem.\+f@{cprem.\+f}!preg@{preg}}
+\index{preg@{preg}!cprem.\+f@{cprem.\+f}}
+\subsubsection{\texorpdfstring{preg()}{preg()}}
+{\footnotesize\ttfamily subroutine preg (\begin{DoxyParamCaption}\item[{real$\ast$8}]{CT,  }\item[{real$\ast$8}]{E\+P\+S\+M\+NR,  }\item[{real$\ast$8}]{X\+JD,  }\item[{real$\ast$8, dimension(3,3,2)}]{RP }\end{DoxyParamCaption})}
+
+
+
+Definition at line 189 of file cprem.\+f.
+
+
+
+References drott(), madd3(), mmul3(), and rotat().
+
+
+
+Referenced by drivr().
+
+\mbox{\Hypertarget{cprem_8f_a3e18e670c3f7745523dc759fa5957b4b}\label{cprem_8f_a3e18e670c3f7745523dc759fa5957b4b}} 
+\index{cprem.\+f@{cprem.\+f}!prei@{prei}}
+\index{prei@{prei}!cprem.\+f@{cprem.\+f}}
+\subsubsection{\texorpdfstring{prei()}{prei()}}
+{\footnotesize\ttfamily subroutine prei (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 72 of file cprem.\+f.
+
+
+
+References ckill(), get4(), and puta().
+
+
+
+Referenced by initl().
+
+\mbox{\Hypertarget{cprem_8f_a6d118ab3a0eb30a4e5ea2e73ed5c6ccc}\label{cprem_8f_a6d118ab3a0eb30a4e5ea2e73ed5c6ccc}} 
+\index{cprem.\+f@{cprem.\+f}!prep@{prep}}
+\index{prep@{prep}!cprem.\+f@{cprem.\+f}}
+\subsubsection{\texorpdfstring{prep()}{prep()}}
+{\footnotesize\ttfamily subroutine prep (\begin{DoxyParamCaption}\item[{real$\ast$8, dimension(3)}]{C\+F\+B\+A\+SE,  }\item[{real$\ast$8}]{E\+P\+S\+M\+NR,  }\item[{real$\ast$8, dimension(3,3)}]{R\+D\+NP,  }\item[{real$\ast$8, dimension(3,3,2)}]{RN,  }\item[{real$\ast$8, dimension(3,3,3)}]{RS,  }\item[{real$\ast$8, dimension(3,3,2)}]{RW,  }\item[{real$\ast$8, dimension(3)}]{S\+T\+AR }\end{DoxyParamCaption})}
+
+
+
+Definition at line 502 of file cprem.\+f.
+
+
+
+References drott(), madd3(), mmul3(), mmul5(), put4(), and vecrt().
+
+
+
+Referenced by drivr().
+
