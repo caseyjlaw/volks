@@ -9,7 +9,8 @@ The VOLKS pipeline is designed to carry out single pulse search and localization
 
 - `Liu, L., Tong, F., Zheng, W., Zhang, J. & Tong, L. 2018, AJ, 155, 98`, which describes the non-imaging single pulse search method.
 - `Liu, L., Zheng, W., Yan, Z. & Zhang, J. 2018, Research in Astronomy and Astrophysics, 18, 069`, which compares the cross spectrum based method and the auto based spectrum method for single pulse serach in VLBI observation.
-- `Liu, L., Jiang, W., Zheng, W., et al. 2018, to be submitted soon`, which describes the radio imaging and astrometric solving single pulse localzation methods.
+- `Liu, L., Jiang, W., Zheng, W., et al. 2018, submitted to AJ, arXiv:1810.08933
+`, which describes the radio imaging and astrometric solving single pulse localzation methods.
 
 Please do not hesitate to contact me (liulei@shao.ac.cn) if you have any problem.
 
